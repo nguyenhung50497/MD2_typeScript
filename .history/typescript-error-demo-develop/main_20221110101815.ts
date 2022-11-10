@@ -27,8 +27,7 @@ function Main() {
     isProduction = false;
     unknown = Direction.UP;
     unknown = 'changed';
-    const post: IPost = "";
-    message = "50";
+    message = 50;
 
     function getPost(postId: string): IPost {
         // do something to retrieve post
